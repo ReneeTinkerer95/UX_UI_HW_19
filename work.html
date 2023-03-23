@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio</title>
+     <link rel="stylesheet" href="CSS/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">WORK</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+           <i class="fa fa-bars" onclick="showMenu()"></i>   
+        </div> 
+    </nav>
+    <h1>About Me</h1>
+</section>
+
+<!--about me content-->
+
+<section class="about-me">
+
+<div class="row">
+    <div class="about-col">
+        <h1>Adventurous      Determined    Analytical</h1>
+        <p>Maya Renee is a 27 year old UX/UI designer based in Texas. Her journey began in October of 2022 after coming to realize she needed a change in her life. She always had a desire for tech,<br> but never crossed the threshold until now! 
+
+            After seeking a certificate in UX/UI Design, she now specializes in mobile app and website design.<br>Maya also spent time earning a Bachelor of Arts in Modern Language Studies with a Minors in East Asian Studies; Linguistics due to her love of languages and culture.<br>“More black women are needed in tech and as a result I am consistently doing my best to make that a reality.”</p>
+    </div>
+    <div class="about-col">
+        <img src="img/me.jpg">
+        </div>
+</div>
+
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+   var navLinks = document.getElementById("navLinks");
+   function showMenu(){
+     navLinks.style.right = "0";
+   }
+   function hideMenu(){
+     navLinks.style.right = "-200px";
+   }
+
+</script>
+
+<!---FOOTER-->
+<section class="footer">
+
+     <h5>Maya Renee<br>
+     San Antonio, TX 78250<br></h5>
+     
+     <small>
+     <i>
+     Copyright Ⓒ 2023<br>
+     <a href="">maya.renee.street@gmail.com</a>
+     </i>
+     </small>
+
+     <div class="icons">
+        <i class="fa fa-github"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+</section>
+
+</body>
+
+<script src="js/index.js"></script>
+</html>
