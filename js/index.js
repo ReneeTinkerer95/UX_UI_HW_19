@@ -1,1 +1,10 @@
 console.log("Your index.js file is loaded correctly!");
+
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+  navLinks.style.right = "0";
+}
+function hideMenu(){
+  navLinks.style.right = "-200px";
+}
