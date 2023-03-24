@@ -1,6 +1,6 @@
 * {
-   margin:0;
-   padding: 0; 
+   margin: 0;
+   padding-bottom: 60;
    font-family: 'Roboto', sans-serif;
 }
 body {
@@ -182,6 +182,9 @@ nav .fa {
    top: 290px;
    left: 80px;
 }
+.about {
+    background-color: #fff;
+}
 /*--------Work Page------*/
 
 .work {
@@ -190,5 +193,24 @@ nav .fa {
    text-align: center;
    padding-top: 100px;
 }
-
-
+.work h1 {
+    color: bisque;
+    padding-top: 0px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.work-col {
+    flex-basis: 31%;
+    background: rgba(222, 184, 135, 0.534);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.port {
+    background-color: #fff;
+    background-size: cover;
+}
