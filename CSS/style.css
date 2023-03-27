@@ -1,6 +1,7 @@
 * {
    margin: 0;
-   padding-bottom: 60;
+   padding: 0;
+   box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
 }
 body {
@@ -210,6 +211,9 @@ nav .fa {
 }
 /*--------Contact Page---------*/
 
+section .contact {
+    padding: 40px 15%;
+}
 .contact {
     background: rgb(0, 0, 0) ;
     height: 100%;
@@ -223,6 +227,7 @@ nav .fa {
 .contact-img img {
     width: 400px;
     height: 750px;
+    height: auto;
     border-radius: 10px;
 }
 .sub-header1 {
@@ -243,5 +248,51 @@ span {
     font-size: 1.1rem;
     margin-bottom: 3.8rem;
 }
-
-
+.contact-form form {
+  position: relative;  
+}
+.contact-form form input, form textarea {
+     width: 100%;
+     padding: 17px;
+     border: none;
+     outline: none;
+     background: #191919;
+     color: #fff;
+     font-size: 1.1rem;
+     margin-bottom: 0.7rem;
+     border-radius: 10px;
+}
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn {
+    display: inline-block;
+    background: #ffbf47;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover {
+    border: 2px solid #cc7b1d;
+    background: transparent;
+    transform: scale(1.1);
+}
+@media (max-width: 1570px) {
+    section .contact {
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    .contact-form h1 {
+        font-size: 60px;
+    }
+    .contact-form p{
+       margin-bottom: 3rem; 
+    }
+}
