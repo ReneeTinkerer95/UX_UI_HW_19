@@ -28,7 +28,7 @@ height: 50px;
     position: relative;
 }
 .nav-links ul li a {
-    color: blanchedalmond;
+    color: rgb(248, 216, 174);
     text-decoration: none;
     font-size: 13px;
 }
@@ -36,7 +36,7 @@ height: 50px;
      content:'';
      width:0%;
      height: 2px;
-     background: #ffbf47;
+     background: rgb(216, 162, 92);
      display: block;
      margin: auto;
      transition: 0.5s;
@@ -182,9 +182,7 @@ nav .fa {
    top: 290px;
    left: 80px;
 }
-.about {
-    background-color: #fff;
-}
+
 /*--------Work Page------*/
 
 .work {
@@ -210,7 +208,40 @@ nav .fa {
     padding: 20px 12px;
     box-sizing: border-box;
 }
-.port {
-    background-color: #fff;
-    background-size: cover;
+/*--------Contact Page---------*/
+
+.contact {
+    background: rgb(0, 0, 0) ;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
 }
+.contact-img img {
+    width: 400px;
+    height: 750px;
+    border-radius: 10px;
+}
+.sub-header1 {
+    background-color: black;
+}
+.contact-form h1 {
+   font-size: 80px;
+   color: #fff;
+   margin-bottom: 20px;
+}
+span {
+    color: #cc7b1d;
+}
+.contact-form p {
+    color: #ffbf47;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+
