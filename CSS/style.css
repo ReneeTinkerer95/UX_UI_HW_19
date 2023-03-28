@@ -257,6 +257,8 @@ section .contact {
     height: 750px;
     height: auto;
     border-radius: 10px;
+    float: right;
+    margin-right: 300px;
 }
 .sub-header1 {
     background-color: black;
